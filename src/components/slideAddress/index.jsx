@@ -54,7 +54,7 @@ const SlideComponent = () => {
   useEffect(() => {
     const slideInterval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % slideData.length);
-    }, 3000);
+    }, 1500);
 
     return () => {
       clearInterval(slideInterval);

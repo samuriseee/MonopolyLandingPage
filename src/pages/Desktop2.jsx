@@ -83,7 +83,7 @@ const Desktop2 = () => {
             </div>
           </div>
           <img
-              className="absolute h-[17.8%] w-[99.9%] top-[2.42%] right-[0%] bottom-[79.79%] left-[0.1%] max-w-full overflow-hidden max-h-full object-cover"
+              className="absolute h-[17.8%] w-[99.9%] top-[2.42%] right-[0%] bottom-[79.79%] left-[0%] max-w-full overflow-hidden max-h-full object-cover"
               alt=""
               src="/nn01-1@2x.png"
           />
@@ -97,7 +97,7 @@ const Desktop2 = () => {
               alt=""
               src="/isolation-mode.svg"
           />
-          <div className="absolute top-[71.83rem] left-[88.08rem] [background:linear-gradient(269.96deg,_rgba(4,_67,_50,_0.82)_1.32%,_rgba(19,_85,_67,_0.79)_28.73%,_rgba(20,_93,_73,_0.69)_41.8%,_rgba(24,_108,_85,_0.63)_50.48%,_rgba(28,_127,_100,_0.49)_58.69%,_rgba(32,_145,_114,_0.36)_65.44%,_rgba(37,_172,_136,_0.15)_73.46%,_rgba(242,_223,_183,_0)_88.61%)] w-[87.74rem] h-[63.14rem] [transform:_rotate(179.75deg)] [transform-origin:0_0]" />
+          <div className="absolute top-[71.83rem] left-[88.08rem] [background:linear-gradient(269.96deg,_rgba(4,_67,_50,_0.82)_1.32%,_rgba(19,_85,_67,_0.79)_28.73%,_rgba(20,_93,_73,_0.69)_41.8%,_rgba(24,_108,_85,_0.63)_50.48%,_rgba(28,_127,_100,_0.49)_58.69%,_rgba(32,_145,_114,_0.36)_65.44%,_rgba(37,_172,_136,_0.15)_73.46%,_rgba(242,_223,_183,_0)_88.61%)] w-[88.2rem] h-[63rem] [transform:_rotate(180deg)] [transform-origin:0_0]" />
           <div className="absolute top-[15.97rem] left-[7.93rem] w-[40.42rem] h-[28.08rem] text-[4.88rem] font-be-vietnam-pro">
             <div className="absolute top-[0rem] left-[0rem] inline-block w-[4.14rem] h-[14.08rem]">{`“  `}</div>
             <div className="absolute top-[14.08rem] left-[35.7rem] inline-block w-[4.72rem] h-[14rem]">{`”  `}</div>
@@ -168,7 +168,7 @@ const Desktop2 = () => {
             <VerticalCarousel />
           </div>
 
-          <div className="absolute top-[164.06rem]  flex flex-col items-center justify-center gap-[3.38rem] text-center text-[2.75rem] text-black  w-[100%]">
+          <div className="absolute top-[155.06rem]  flex flex-col items-center justify-center gap-[3.38rem] text-center text-[2.75rem] text-black  w-[100%]">
             <div className="flex flex-col items-center justify-start gap-[1.5rem]">
               <b className="relative">{`Du lạc các địa danh Việt Nam `}</b>
               <div className="relative text-[1.5rem] text-left">{`Hình ảnh các danh lam thắng canh, di tích lịch sử và di sản văn hoá Việt Nam được sử dụng `}</div>
@@ -177,7 +177,7 @@ const Desktop2 = () => {
               <SlideComponent />
             </div>
           </div>
-          <div className="absolute top-[214.69rem] left-[11.56rem] flex flex-col items-center justify-start gap-[3rem] text-[2.75rem] text-black">
+          <div className="absolute top-[209.69rem] left-[11.56rem] flex flex-col items-center justify-start gap-[3rem] text-[2.75rem] text-black">
             <div className="flex flex-col items-center justify-start gap-[3.38rem]">
               <b className="relative">Đánh giá sản phẩm</b>
               <div className="flex flex-row items-center justify-center gap-[8.38rem] text-[1.88rem]">
@@ -408,18 +408,18 @@ const Desktop2 = () => {
             </div>
             {}
           </div>
-          <b className="absolute top-[275.94rem] left-[47.63rem] text-[2.75rem] text-black">
+          <b className="absolute top-[272.94rem] left-[47.63rem] text-[2.75rem] text-black">
             Thông tin đặt hàng
           </b>
           <img
-              className="absolute top-[277.81rem] left-[0rem] w-[75.69rem] h-[63.31rem] object-cover"
+              className="absolute top-[275.81rem] left-[0rem] w-[75.69rem] h-[63.31rem] object-cover"
               alt=""
               data-aos="fade-right"
               data-aos-offset="-200"
               data-aos-duration="1500"
               src="/123-1@2x.png"
           />
-          <div className="absolute top-[282.69rem] left-[67.13rem] rounded-[18px] bg-lightgoldenrodyellow flex flex-col pt-[2.13rem] px-[3.38rem] pb-[3.13rem] items-center justify-start gap-[3rem] text-black border-[1px] border-solid border-black"
+          <div className="absolute top-[280.69rem] left-[67.13rem] rounded-[18px] bg-lightgoldenrodyellow flex flex-col pt-[2.13rem] px-[3.38rem] pb-[3.13rem] items-center justify-start gap-[3rem] text-black border-[1px] border-solid border-black"
                data-aos="fade-left"
                data-aos-offset="-250"
                data-aos-duration="1500"

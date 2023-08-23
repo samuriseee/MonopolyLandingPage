@@ -8,7 +8,9 @@ import VerticalCarousel from "../components/slide";
 import "./Desktop2.css";
 const Desktop2 = () => {
   useEffect(() => {
-    AOS.init(); // Khởi tạo AOS trong useEffect
+    AOS.init({
+      once: true,
+    }); // Khởi tạo AOS trong useEffect
   }, []);
   return (
       <div className="">
@@ -182,6 +184,8 @@ const Desktop2 = () => {
                 <div
                     className="rounded-sm bg-gray-200 shadow-[0px_2px_4px_rgba(0,_0,_0,_0.15)] flex flex-col py-[3.13rem] px-[2.25rem] items-center justify-start gap-[1.38rem]"
                     data-aos="fade-left"
+                    data-aos-offset="-180"
+                    data-aos-delay="300"
                 >
                   <img
                       className="relative w-[10.94rem] h-[10.94rem] object-cover"
@@ -258,6 +262,7 @@ const Desktop2 = () => {
                 <div
                     className="rounded-sm bg-gray-200 shadow-[0px_2px_4px_rgba(0,_0,_0,_0.15)] flex flex-col py-[4rem] px-[2.25rem] items-center justify-start gap-[1.38rem] text-[2rem]"
                     data-aos="fade-up"
+                    data-aos-offset="-180"
                 >
                   <img
                       className="relative w-[12.5rem] h-[12.5rem] object-cover"
@@ -328,6 +333,8 @@ const Desktop2 = () => {
                 <div
                     className="rounded-sm bg-gray-200 shadow-[0px_2px_4px_rgba(0,_0,_0,_0.15)] flex flex-col py-[3.13rem] px-[2.25rem] items-center justify-start gap-[1.38rem]"
                     data-aos="fade-right"
+                    data-aos-offset="-180"
+                    data-aos-delay="150"
                 >
                   <img
                       className="relative w-[10.94rem] h-[10.94rem] object-cover"
@@ -408,14 +415,14 @@ const Desktop2 = () => {
               className="absolute top-[277.81rem] left-[0rem] w-[75.69rem] h-[63.31rem] object-cover"
               alt=""
               data-aos="fade-right"
-              data-aos-offset="-50"
-              data-aos-duration="3000"
+              data-aos-offset="-200"
+              data-aos-duration="1500"
               src="/123-1@2x.png"
           />
           <div className="absolute top-[282.69rem] left-[67.13rem] rounded-[18px] bg-lightgoldenrodyellow flex flex-col pt-[2.13rem] px-[3.38rem] pb-[3.13rem] items-center justify-start gap-[3rem] text-black border-[1px] border-solid border-black"
                data-aos="fade-left"
-               data-aos-offset="-50"
-               data-aos-duration="3000"
+               data-aos-offset="-250"
+               data-aos-duration="1500"
           >
             <div className="flex flex-col items-start justify-start gap-[2rem]">
               <div className="rounded-lg flex flex-col items-start justify-start gap-[0.13rem]">

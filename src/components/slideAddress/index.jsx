@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const SliderContainer = styled.div`
   display: flex;
-  overflow: hidden;
   position: relative;
   width: 90%;
   margin: 0 auto;
@@ -24,7 +23,6 @@ const Slide = styled.div`
 
 const SlideImage = styled.img`
   width: 100%;
-  height: 100%;
   object-fit: cover;
 `;
 

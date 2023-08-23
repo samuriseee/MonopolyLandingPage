@@ -1,0 +1,8 @@
+
+.main-container {
+    width: 100%; /* Default width for larger screens */
+
+    @media (max-width: 1600px) {
+          zoom: 0.8;
+    }
+}
